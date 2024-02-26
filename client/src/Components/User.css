@@ -1,0 +1,62 @@
+
+
+
+.usersTable{
+    width: 60%;
+    background-color: white;
+    box-shadow:  1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.addBtn{
+    text-decoration: none;
+    background-color: rgb(152, 8, 152);
+    color: white;
+    font-weight: 500;
+    box-shadow:  1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+}
+.addBtn:hover{
+    background-color: rgb(100, 12, 100);
+}
+.usersTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse ;
+}
+.usersTable table thead th{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+.usersTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.actionBtn button{
+    border: 0;
+    outline: none;
+    background: rgba(206, 8, 8, 0.9);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+.actionBtn a{
+  
+   text-decoration: none;
+   margin: 0 10px;
+    background: rgba(2, 174, 2, 0.918);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+.actionBtn button:hover{
+    background: rgb(141, 5, 5);
+}
+.actionBtn a:hover{
+    background: rgb(44, 148, 13);
+}
